@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+ADD STUDENT DETAILS
+</title>
+</head>
+<br>
+<body style="background-color:black;">
+<br>
+<form action="action_add3.php" method="post">
+<fieldset style="background-color:rgb(255,102,51);">
+<legend style="font-size:40px;background-color:black; color:rgb(178,204,51);"><u>PERSONAL INFORMATION</u></legend>
+Name:
+<br>
+<input style="background-color:rgb(178,204,51);" type="text" name="firstname" autofocus pattern="[A-Za-z .]*">
+<br>
+<br>
+Physical Address:
+<br>
+<input style="background-color:rgb(178,204,51);" type="text" name="address" required>
+<br>
+<br>
+Email Id:
+<br>
+<input style="background-color:rgb(178,204,51);" type="email" name="mail" pattern="[a-zA-Z0-9]*@nitt.edu">
+<br>
+<br>
+Roll Number:
+<br>
+<input style="background-color:rgb(178,204,51);" type="number" name="roll" min="100000000" max="999999999">
+<br>
+<br>
+Department:
+<br>
+<select name="dept" style="background-color:rgb(178,204,51);">
+<option value="arch">ARCH</option>
+<option value="chem">CHEM</option>
+<option value="civil">CIVIL</option>
+<option value="cse">CSE</option>
+<option value="ece">ECE</option>
+<option value="eee">EEE</option>
+<option value="ice">ICE</option>
+<option value="mech">MECH</option>
+<option value="meta">META</option>
+<option value="prod">PROD</option>
+</select>
+<br>
+<br>
+About Me:
+<br>
+<input style="background-color:rgb(178,204,51);" type="text" name="about" >
+<br>
+<br>
+<input type="submit" style="background-color:black; color:rgb(178,204,51);" value="Submit">
+</fieldset>
+</form>
+</body>
+</html>
